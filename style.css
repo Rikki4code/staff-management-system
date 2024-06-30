@@ -1,0 +1,198 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-decoration: none;
+}
+
+body{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+    padding: 0 45px;
+  
+}
+header img{
+    width: 30px;
+}
+
+header nav{
+    display: flex;
+    gap: 40px;
+  
+}
+header nav a{
+    color: white;
+}
+header nav a:hover{
+    color: wheat;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+ .banner{
+    width: 100%;
+    height: 250px;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("banners.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 0;
+}
+.banner h1{
+    font-size: 40px;
+    font-weight: 200;
+    color: white;
+
+}
+form{
+    width: 60%;
+    background-color: white;
+    padding: 40px 60px;
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+ .profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+ }
+
+ 
+
+ .profile-til{
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+    width: 40%;
+ }
+
+ .profile-pic{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+ }
+
+ .profile-pic label{
+width: 100px;
+border: 1px solid darkorange;
+background-color: darkorange;
+color: white;
+text-align: center;
+padding: 7px 15px;
+border-radius: 5px;
+cursor: pointer;
+
+
+ }
+
+ .profile-pic input{
+  display: none;
+ }
+
+ .profile-pic img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+ }
+
+  
+form div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+    width: 100%;
+}
+
+form .gender{
+    flex-direction: row;
+    justify-content: flex-start;
+    gap:100px;
+}
+
+
+
+form .gender span{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap:10px;
+}
+
+form div label{
+    color: darkorange;
+    width: fit-content;
+    font-size: 14px;
+}
+
+form div input, textarea, span select{
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid grey;
+    font-size: 18px;
+}
+
+form button{
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: darkorange;
+    color:white;
+    border:none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+form button:hover{
+    background-color: black;
+}
+
+
+
+footer{
+     background-color: rgb(21, 21, 21);
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     height: 40px;
+     width: 100%;
+    
+}
+footer p{
+    color: white;
+    font-size: 10px;
+}
